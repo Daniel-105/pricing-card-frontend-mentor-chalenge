@@ -1,0 +1,100 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Karla", sans-serif;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.main-container {
+  margin: 10vh;
+  box-shadow: 0 0 20px -5px;
+  border-radius: 10px;
+}
+
+.top-container {
+  padding: 5%;
+}
+
+.bottom-container {
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  background-color: hsl(179, 62%, 43%);
+  padding: 5%;
+  width: 50%;
+  color: white;
+}
+
+.subscripton {
+  background-color: hsl(179, 62%, 43%);
+  border-bottom-left-radius: 10px;
+}
+
+.why-us {
+  background-color: hsl(179, 58%, 49%);
+  border-bottom-right-radius: 10px;
+}
+
+.why-us h1 {
+  font-size: 1.2rem;
+}
+
+.why-us li {
+  list-style-type: none;
+}
+
+.top-container h1 {
+  color: hsl(179, 62%, 43%);
+}
+
+.top-container p {
+  color: hsl(218, 22%, 67%);
+}
+
+.top-container h2 {
+  color: hsl(71, 73%, 54%);
+}
+
+.subscripton h1 {
+  font-size: 1.2rem;
+}
+
+.subscripton h2 {
+  color: hsl(203, 42%, 70%);
+  font-size: 1rem;
+}
+
+.subscripton span {
+  color: white;
+  font-size: 2rem;
+}
+
+.subscripton button {
+  padding: 20px 120px;
+  background-color: hsl(71, 73%, 54%);
+  color: white;
+  border: none;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 5px;
+  box-shadow: 3px 0px 15px -5px rgb(65, 65, 65);
+}
